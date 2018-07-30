@@ -20,9 +20,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\sources\main.cpp" />
+    <ClCompile Include="DecType.cpp" />
+    <ClCompile Include="HexType.cpp" />
+    <ClCompile Include="Number.cpp" />
+    <ClCompile Include="OctType.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\sources\main.h" />
     <ClInclude Include="..\sources\Stack.cpp" />
+    <ClInclude Include="DecType.h" />
+    <ClInclude Include="HexType.h" />
+    <ClInclude Include="Number.h" />
+    <ClInclude Include="OctType.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
